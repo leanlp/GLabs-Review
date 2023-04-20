@@ -151,12 +151,12 @@ const RaffleDetails: FC<RaffleDetailsProps> = ({ raffle }) => {
               {raffle.raffleDetails.numberOfWinners} Winners
             </span>
           </div>
-          <div className="flex">
+          {/* <div className="flex">
             <FaUserCheck className="self-center mr-2 text-2xl text-participant-light" />
             <span className="self-center text-base font-bold ">
               {raffle.participants.length} Participants
             </span>
-          </div>
+          </div> */}
           <div className="flex">
             <button
               onClick={toggleOpenEnterDialog}

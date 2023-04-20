@@ -37,8 +37,8 @@ const CreatorRafflesTableRow: FC<ICreatorRafflesTableRowProps> = ({
           <div className="">
             <span className=" text-xs">
               Started on{" "}
-              {moment(raffle.raffleDetails.startDate).format("MMMM DD")} and
-              ends on {moment(raffle.raffleDetails.endDate).format("MMMM DD")}
+              {moment(raffle.raffleDetails.startDate).format("MMMM DD hh mm")} and
+              ends on {moment(raffle.raffleDetails.endDate).format("MMMM DD hh mm")}
             </span>
           </div>
         </div>
